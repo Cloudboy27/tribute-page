@@ -1,12 +1,21 @@
-body
+body {
+background-color: Darkgreen;
+
+}
+
+body {
+  background-image: url("https://www.photohdx.com/images/2016/02/dramatic-blue-sky-clouds.jpg");
+}
+
 
 h1 {
-  color: black;
+  color: White;
   text-align: center;
 
 }
 
 p {
+  color: White;
   font-family: verdana;
   font-size: 20px;
 }
