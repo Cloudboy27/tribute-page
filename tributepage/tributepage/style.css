@@ -9,6 +9,7 @@ body {
 
 h1 {
   text-shadow: 2px 2px #ff0000;
+  font-size: 300%;
 }
 
 h2 {
@@ -16,21 +17,24 @@ h2 {
 }
 
 
-
-h1 {
-  font-size: 300%;
-
-}
-
 #bilder {
+  margin-top: 200px;
   text-align: center;
-
-}
-
-#bilder {
   border: 5px solid red;
+
 }
 
+.bilder {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.bilder > div {
+  background-color: #f1f1f1;
+  margin: 5px;
+  padding: 11px;
+  font-size: 30px;
+}
 
 
 #bilder2 {
