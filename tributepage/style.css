@@ -7,28 +7,61 @@ body {
   background-image: url("https://www.photohdx.com/images/2016/02/dramatic-blue-sky-clouds.jpg");
 }
 
+h1 {
+  text-shadow: 2px 2px #ff0000;
+  font-size: 300%;
+  margin: 100px;
+}
+
+h2 {
+  text-shadow: 2px 2px #ff0000;
+}
+
+
+p {
+  margin-bottom: 100px;
+}
+
 #bilder {
+  margin-top: 100px;
   text-align: center;
-
-}
-
-#bilder {
   border: 5px solid red;
-  b
+
 }
 
+.bilder {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.bilder > div {
+  background-color: #f1f1f1;
+  margin: 5px;
+  padding: 11px;
+  font-size: 30px;
+}
 
 
 #bilder2 {
   text-align: center;
-  border: 5px solid red
+  border: 5px solid lightblue;
+
 }
 
+#bilder2 img {
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+}
 
+#bilder2 img:hover {
+-webkit-transform: rotate(180deg);
+}
 
 #Youtube {
   text-align: center;
-
+  margin: 100px;
 }
 
 h1 {
