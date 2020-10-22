@@ -3,38 +3,38 @@ background-color: Darkgreen;
 
 }
 
-body {
+body { /* I added backroudn image */
   background-image: url("https://www.photohdx.com/images/2016/02/dramatic-blue-sky-clouds.jpg");
 }
 
 h1 {
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px #ff0000; /* I added shadow for my Title */
   font-size: 300%;
   margin: 100px;
 }
 
 h2 {
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px #ff0000; /* Same here but for title  */
 }
 
 
 p {
-  margin-bottom: 100px;
+  margin-bottom: 100px; /* */
 }
 
-#bilder {
+#bilder { /*Put my photos in red border */
   margin-top: 100px;
   text-align: center;
   border: 5px solid red;
 
 }
 
-.bilder {
+.bilder {  /*I puted every photo in bilder in flex box */
   display: flex;
   background-color: DodgerBlue;
 }
 
-.bilder > div {
+.bilder > div { /*Every div in bilder are in flex box next to each other, here i can also choose the margin and padding */
   background-color: #f1f1f1;
   margin: 5px;
   padding: 11px;
@@ -42,24 +42,21 @@ p {
 }
 
 
-#bilder2 {
+#bilder2 { /* I put every photo in bilder 2 in a light blue border */
   text-align: center;
   border: 5px solid lightblue;
 
 }
 
-#bilder2 img {
+#bilder2 img { /* This here is the time for the rotation animation , the time is 1 sec*/
 -webkit-transition: all 1s ease-in-out;
--moz-transition: all 1s ease-in-out;
--o-transition: all 1s ease-in-out;
--ms-transition: all 1s ease-in-out;
 }
 
-#bilder2 img:hover {
+#bilder2 img:hover { /*This is a element that makes my photos in bilder 2 rotate 180degree, so upside down */
 -webkit-transform: rotate(180deg);
 }
 
-#Youtube {
+#Youtube { /* Put my videos in the center , also make it take som space from above*/
   text-align: center;
   margin: 100px;
 }
